@@ -10,7 +10,7 @@ This repository documents the infrastructure and delivery layer I built for a **
 
 ## Architecture
 
-[Deployment architecture]SPMIS-Deployment-Architecture.svg
+![Deployment architecture](docs/SPMIS-Deployment-Architecture.svg)
 
 A single VPS runs the full stack as **seven Docker containers** on one private bridge network. The design goal throughout: **minimise public attack surface, make every deploy reproducible and reversible, and treat the data as if a breach were a career-ending event** — because under NDPA/NDPR, it effectively is.
 
